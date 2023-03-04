@@ -29,7 +29,7 @@ install:
   - ls -l
   - ls bin/ -l
   - gem install dpl --pre
-  - dpl releases --token $GITHUB_TOKEN --file "bin/mobileapp001-0.3-armeabi-v7a-debug.apk" --tag_name "v.0.3"
+  - dpl releases --token $GIT_TOKEN_ALKA --file "bin/mobileapp001-0.1-armeabi-v7a-debug.apk" --tag_name "v.0.1"
   - echo "TODO COMPILE 64bit"
   - ls -l /home/travis/
   - rm -r -f /home/travis/.buildozer
